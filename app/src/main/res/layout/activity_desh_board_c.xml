@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_gray"
+    android:orientation="vertical"
+    tools:context=".DeshBoardC">
+
+    <include
+        android:id="@+id/dashToolBar"
+        layout="@layout/tool_bar" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:id="@+id/layoutDashB">
+
+            <CheckBox
+                android:id="@+id/chkMarriage"
+                android:textAllCaps="true"
+                android:layout_width="match_parent"
+                android:layout_height="43dp"
+                android:buttonTint="@color/color_purpul"
+                android:text="@string/marry" />
+
+            <CheckBox
+                android:id="@+id/chkGuidance"
+                android:textAllCaps="true"
+                android:layout_width="match_parent"
+                android:layout_height="43dp"
+                android:buttonTint="@color/color_purpul"
+                android:text="@string/guide" />
+
+            <CheckBox
+                android:id="@+id/chkCareer"
+                android:textAllCaps="true"
+                android:layout_width="match_parent"
+                android:layout_height="43dp"
+                android:buttonTint="@color/color_purpul"
+                android:text="@string/career" />
+
+            <CheckBox
+                android:id="@+id/chkDept"
+                android:textAllCaps="true"
+                android:layout_width="match_parent"
+                android:layout_height="43dp"
+                android:buttonTint="@color/color_purpul"
+                android:text="@string/dept" />
+
+            <CheckBox
+                android:id="@+id/chkChild"
+                android:textAllCaps="true"
+                android:layout_width="match_parent"
+                android:layout_height="43dp"
+                android:buttonTint="@color/color_purpul"
+                android:text="@string/child" />
+
+            <CheckBox
+                android:id="@+id/chkGrief"
+                android:textAllCaps="true"
+                android:layout_width="match_parent"
+                android:layout_height="43dp"
+                android:buttonTint="@color/color_purpul"
+                android:text="@string/grief" />
+
+            <CheckBox
+                android:id="@+id/chkEducare"
+                android:layout_width="match_parent"
+                android:layout_height="43dp"
+                android:textAllCaps="true"
+                android:buttonTint="@color/color_purpul"
+                android:text="@string/edu" />
+
+            <CheckBox
+                android:id="@+id/chkRehab"
+                android:textAllCaps="true"
+                android:layout_width="match_parent"
+                android:layout_height="43dp"
+                android:buttonTint="@color/color_purpul"
+                android:text="@string/rehab" />
+
+            <CheckBox
+                android:id="@+id/chkMental"
+                android:textAllCaps="true"
+                android:layout_width="match_parent"
+                android:layout_height="43dp"
+                android:buttonTint="@color/color_purpul"
+                android:text="@string/mental" />
+
+            <CheckBox
+                android:id="@+id/chkSubsta"
+                android:textAllCaps="true"
+                android:layout_width="match_parent"
+                android:layout_height="43dp"
+                android:buttonTint="@color/color_purpul"
+                android:text="@string/liquor" />
+
+            <CheckBox
+                android:id="@+id/chkFam"
+                android:textAllCaps="true"
+                android:layout_width="match_parent"
+                android:layout_height="43dp"
+                android:buttonTint="@color/color_purpul"
+                android:text="@string/fam" />
+
+            <CheckBox
+                android:id="@+id/chkOther"
+                android:textAllCaps="true"
+                android:layout_width="match_parent"
+                android:layout_height="43dp"
+                android:buttonTint="@color/color_purpul"
+                android:paddingBottom="5dp"
+                android:text="@string/other" />
+
+            <Button
+                android:id="@+id/btnSubmit"
+                android:layout_width="223dp"
+                android:layout_height="66dp"
+                android:backgroundTint="@color/color_gray"
+                android:elevation="4dp"
+                android:onClick="submit"
+                android:text="@string/Signup" />
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
+</LinearLayout>

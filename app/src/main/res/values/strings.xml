@@ -1,0 +1,60 @@
+<resources>
+    <string name="app_name">Remote Counsellor</string>
+    <string name="slogen">Engineered to inspire you</string>
+    <string name="name">U-FIRST</string>
+
+    <!--login string-->
+    <string name="login_action1">Sign in to continue</string>
+    <string name="forgotPass">Forgot Password?</string>
+    <string name="Login">LOGIN</string>
+    <string name="Signup">SIGN UP</string>
+    <string name="next">Next</string>
+    <string name="create_account">Do not have an account?</string>
+
+    <string name="u">Login to continue</string>
+    <string name="signupMessage">SIGN UP TO GET AN ACCOUNT</string>
+    <string name="have_an_account">Already Have An Account</string>
+    <string name="passDiscription">Login using the required credentials</string>
+    <string name="notes">The credentials must be registered with U-FIRST.</string>
+    <string name="headingPassword">Forgot Your Password! </string>
+
+    <!--for onBoard-->
+    <string name="one1U">Easing of mind</string>
+    <string name="two1U">Remotely amd helpful</string>
+    <string name="third1U">best online Therapist</string>
+    <string name="four1U">Confidential and Anonymous</string>
+
+    <string name="one2U">Feeling overwhelmed by life? The U-FIRST is designed to help people in need to ease their minds. Find solutions how to deal with emotional, physical, financial, and social problems that you are having. </string>
+    <string name="two2U">The world evolves, time is not really what you have. U-FIRST is a remotely used application that saves you time and money yet get the help you need at your own time and place.</string>
+    <string name="third2U">Best Therapists on ur fingertips plus the  privilege of choosing your favourite now that is luxurious. Its all because U-FIRST puts your first</string>
+    <string name="four2U">It is without any doubt that ur confidentiality is guaranteed. You are anonymous to the therapist which they are not anonymous to you, remember your satisfaction matters in this platform</string>
+
+    <!--for onBoardC-->
+    <string name="one1C">Remotely providing help</string>
+    <string name="two1C">Connect to the world</string>
+    <string name="third1C">Confidentiality guaranteed</string>
+    <string name="four1C">Save time and money</string>
+
+    <string name="one2C">At the comfort of your home be the hero u have always been. Helping people without being in contact with them and still get the recognition you deserve.</string>
+    <string name="two2C">Saving lives matters - you know that too well. Save lives around the world digitally and in style. It has never been easy to connect to the world.</string>
+    <string name="third2C">As you had to convince clients to keep confidential matter confidential, now you need not to worry about people doubting you because they get helped without being known yet you get all the recognition.</string>
+    <string name="four2C">Yes! you do not have to spend money on renting a workplace or setting time with ur client. is has all been covered now. All of this can bee done at anytime and anywhere, the power is on your fingertips</string>
+
+    <string name="marry">Marriage counselling</string>
+    <string name="fam">Family counselling</string>
+    <string name="guide">Guidance counselling</string>
+    <string name="career">Career counselling</string>
+    <string name="dept">Dept counselling</string>
+    <string name="child">Child Development</string>
+    <string name="grief">Grief counselling</string>
+    <string name="edu">Educational</string>
+    <string name="rehab">Rehabilitation</string>
+    <string name="liquor">Substance abuse</string>
+    <string name="mental">Mental Heath counselling</string>
+    <string name="other">Other types.............</string>
+
+
+
+
+
+</resources>

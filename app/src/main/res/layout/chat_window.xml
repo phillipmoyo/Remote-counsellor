@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ChatWindow"
+    android:id="@+id/relativeLayout2">
+
+    <include
+        android:id="@+id/chatToolbar"
+        layout="@layout/tool_bar"
+        />
+
+
+    <ScrollView
+        android:id="@+id/scroll"
+        android:layout_width="358dp"
+        android:layout_height="564dp"
+        android:layout_marginBottom="124dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.84"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/chatToolbar"
+        app:layout_constraintVertical_bias="0.0">
+
+        <LinearLayout
+            android:id="@+id/chatLinearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintTop_toBottomOf="@+id/chatToolbar" />
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:backgroundTint="@color/cardview_light_background"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/chatToolbar"
+        app:layout_constraintVertical_bias="0.988">
+
+        <EditText
+            android:id="@+id/typeHere"
+            android:layout_width="306dp"
+            android:layout_height="48dp"
+            android:hint="Type here" />
+
+        <Button
+            android:layout_width="56dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/cardview_light_background"
+
+            android:drawableEnd="@android:drawable/ic_menu_send"
+            android:onClick="doSendMessage" />
+
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

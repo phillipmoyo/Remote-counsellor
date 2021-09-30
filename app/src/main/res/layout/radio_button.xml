@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="11dp"
+    >
+    <RadioButton
+        android:paddingTop="11dp"
+        android:layout_width="match_parent"
+        android:textSize="15dp"
+        android:paddingBottom="11dp"
+        android:id="@+id/marriage"
+        android:text="@string/marry"
+        android:textAllCaps="true"
+        android:buttonTint="@color/color_purpul"
+        android:layout_height="wrap_content"/>
+
+    <RadioButton
+        android:paddingTop="11dp"
+        android:layout_width="match_parent"
+        android:textSize="15dp"
+        android:paddingBottom="11dp"
+        android:text="@string/fam"
+        android:id="@+id/family"
+        android:textAllCaps="true"
+        android:buttonTint="@color/color_purpul"
+        android:layout_height="wrap_content"/>
+    <RadioButton
+        android:paddingTop="11dp"
+        android:paddingBottom="11dp"
+        android:layout_width="match_parent"
+        android:textSize="15dp"
+        android:text="@string/guide"
+        android:id="@+id/guidance"
+
+        android:textAllCaps="true"
+        android:buttonTint="@color/color_purpul"
+        android:layout_height="wrap_content"/>
+    <RadioButton
+        android:paddingTop="11dp"
+        android:paddingBottom="11dp"
+        android:layout_width="match_parent"
+        android:textSize="15dp"
+        android:id="@+id/career"
+        android:text="@string/career"
+        android:textAllCaps="true"
+        android:buttonTint="@color/color_purpul"
+        android:layout_height="wrap_content"/>
+    <RadioButton
+        android:paddingTop="11dp"
+        android:layout_width="match_parent"
+        android:textSize="15dp"
+        android:paddingBottom="11dp"
+        android:id="@+id/dept"
+        android:text="@string/dept"
+        android:textAllCaps="true"
+        android:buttonTint="@color/color_purpul"
+        android:layout_height="wrap_content"/>
+
+    <RadioButton
+        android:paddingTop="11dp"
+        android:layout_width="match_parent"
+        android:textSize="15dp"
+        android:text="@string/child"
+        android:paddingBottom="11dp"
+        android:id="@+id/child_development"
+        android:textAllCaps="true"
+        android:buttonTint="@color/color_purpul"
+        android:layout_height="wrap_content"/>
+    <RadioButton
+        android:paddingTop="11dp"
+        android:paddingBottom="11dp"
+        android:layout_width="match_parent"
+        android:textSize="15dp"
+        android:id="@+id/grief"
+        android:text="@string/grief"
+        android:textAllCaps="true"
+        android:buttonTint="@color/color_purpul"
+        android:layout_height="wrap_content"/>
+    <RadioButton
+        android:paddingTop="11dp"
+        android:paddingBottom="11dp"
+        android:layout_width="match_parent"
+        android:buttonTint="@color/color_purpul"
+        android:textSize="15dp"
+        android:text="@string/edu"
+        android:id="@+id/educational"
+        android:textAllCaps="true"
+        android:layout_height="wrap_content"/>
+    <RadioButton
+        android:paddingTop="11dp"
+        android:paddingBottom="11dp"
+        android:text="@string/rehab"
+        android:layout_width="match_parent"
+        android:textSize="15dp"
+        android:id="@+id/rehabilitation"
+        android:textAllCaps="true"
+        android:buttonTint="@color/color_purpul"
+        android:layout_height="wrap_content"/>
+    <RadioButton
+        android:text="@string/mental"
+        android:layout_width="match_parent"
+        android:textSize="15dp"
+        android:paddingBottom="11dp"
+        android:paddingTop="11dp"
+        android:id="@+id/mental_health"
+        android:textAllCaps="true"
+        android:buttonTint="@color/color_purpul"
+        android:layout_height="wrap_content"/>
+
+    <RadioButton
+        android:text="@string/liquor"
+        android:layout_width="match_parent"
+        android:textSize="15dp"
+        android:paddingBottom="11dp"
+        android:paddingTop="11dp"
+        android:id="@+id/substance"
+        android:textAllCaps="true"
+        android:buttonTint="@color/color_purpul"
+        android:layout_height="wrap_content"/>
+
+
+
+    <RadioButton
+        android:text="@string/other"
+        android:layout_width="match_parent"
+        android:textSize="15dp"
+        android:paddingBottom="11dp"
+        android:paddingTop="11dp"
+        android:id="@+id/other"
+        android:textAllCaps="true"
+        android:buttonTint="@color/color_purpul"
+        android:layout_height="wrap_content"/>
+
+
+
+
+</RadioGroup>
